@@ -85,9 +85,9 @@ An interactive function allows users to input flower measurements and predicts t
 Versicolor       1.00      0.93      0.96        14
  Virginica       0.94      1.00      0.97        15
 
- Accuracy                           0.98        45
-Macro avg       0.98      0.98      0.98        45
-Weighted avg 0.98 0.98 0.98 45
+ Accuracy                            0.98        45
+Macro avg        0.98      0.98      0.98        45
+Weighted avg     0.98      0.98      0.98        45
 ```
 
 - **Accuracy Score**: 0.98
