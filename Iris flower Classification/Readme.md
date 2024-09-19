@@ -78,6 +78,7 @@ An interactive function allows users to input flower measurements and predicts t
 ```
 - **Classification Report**:
 
+``` markdown
              precision    recall  f1-score   support
 
     Setosa       1.00      1.00      1.00        16
@@ -87,7 +88,7 @@ Versicolor       1.00      0.93      0.96        14
  Accuracy                           0.98        45
 Macro avg       0.98      0.98      0.98        45
 Weighted avg 0.98 0.98 0.98 45
-
+```
 
 - **Accuracy Score**: 0.98
 
