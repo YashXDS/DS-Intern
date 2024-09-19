@@ -1,10 +1,10 @@
 ## Car Price Prediction Project
 
-# Project Overview
+## Project Overview
 
 This project involves building a machine learning model to predict the **Selling Price** of cars based on various features such as **Year**, **Present Price**, **Driven Kilometers**, **Fuel Type**, **Transmission**, and **Owner**. The project utilizes Random Forest Regressor with hyperparameter tuning to achieve optimal model performance.
 
-# Dataset
+## Dataset
 
 The dataset used for this project is `car data.csv`. It contains the following columns:
 - **Year**: The year the car was manufactured.
@@ -16,7 +16,7 @@ The dataset used for this project is `car data.csv`. It contains the following c
 - **Owner**: The number of previous owners of the car.
 - **Selling_Price**: The price at which the car was sold (target variable).
 
-# Requirements
+## Requirements
 
 - Python 3.x
 - Required Libraries:
@@ -31,7 +31,7 @@ You can install the required libraries using:
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
-# Steps Performed
+## Steps Performed
 - **Data Preprocessing**:
 
 Dropped irrelevant columns, such as Car_Name.
@@ -53,14 +53,14 @@ Prediction Function:
 Created an interactive function that allows users to input car details to predict the selling price.
 
 - **Model Pipeline**:
-The model pipeline consists of two main components:
+```The model pipeline consists of two main components```:
 
-# Preprocessing:
+## Preprocessing:
 
 Numeric features are scaled using StandardScaler.
 Categorical features are encoded using OneHotEncoder.
 
-# Random Forest Regressor:
+## Random Forest Regressor:
 
 The model is optimized using a randomized search over several hyperparameters, including the number of estimators, maximum depth, and more.
 Hyperparameter Tuning
@@ -83,15 +83,15 @@ The best parameters found were:
  'regressor__bootstrap': True}
 ```
 
-# Evaluation Metrics
+## Evaluation Metrics
 
 - **Mean Squared Error (MSE)** : Measures the average squared difference between actual and predicted values.
 - **R-squared (R²) Score**: Indicates how well the model explains the variance in the target variable.
 
-# Visualizations
+## Visualizations
 Several visualizations were created to provide insights into the dataset:
 
-# Insights and Future Improvements
+## Insights and Future Improvements
 
 Feature Importance: Analyzing which features have the most influence on car price can be explored further.
 Model Optimization: Further tuning of hyperparameters or trying different models (e.g., XGBoost) could improve prediction accuracy.
