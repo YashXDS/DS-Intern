@@ -45,6 +45,6 @@ My time at Oasis Infobyte allowed me to enhance my technical skills and gain han
 
 **Contact Information:**
 
-- **LinkedIn**: [https://limkedin.com/in/yashkumar-patel-xds]
+- **LinkedIn**: [https://linkedin.com/in/yashkumar-patel-xds]
 - **Email**: [yapatel9023@gmail.com]
 
